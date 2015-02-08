@@ -41,34 +41,52 @@ HEADER
 ********************/
 
 header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #ccc;
+  color: #fff;
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+  background-color: #53bec4;
+}
+
+.main-logo-bg {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 240px;
+  background: #fff;
 }
 
 .main-logo {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0 5px red;
 }
 
 .discript {
+  padding-top: 18px;
   font-size: 28px;
-  font-weight: bold;
 }
 
 .main-tel {
-  font-size: 28px;
-  font-weight: bold;
+  padding-top: 24px;
+  font-size: 24px;
   text-align: center;
 }
 
 .main-nav ul {
+  padding-top: 20px;
   text-align: center;
 }
 
 .main-nav li {
   padding-bottom: 5px;
   font-size: 16px;
+}
+
+.main-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px dashed;
 }
 
 
@@ -88,43 +106,80 @@ CONTENT
   margin-left: auto;
   width: 100%;
   max-width: 240px;
+  background: #fff;
 }
 
 .menu-nav {
   margin-bottom: 20px;
-  background-color: #ad8a77;
 }
 
 .menu-nav li {
+  height: 48px;
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
 }
 
 .menu-nav li a {
-  padding: 5.2px 22px 5.2px;
+  padding-right: 25px;
   display: block;
+  height: 48px;
   font-size: 13px;
+  line-height: 48px;
+  text-align: right;
   text-transform: uppercase;
-  color: #fff;
-  border-top: 1px solid #141414;
+  color: #bbb;
+  transition: padding ease-in-out .2s;
 }
 
 .menu-nav .current a,
 .menu-nav a:hover {
+  position: relative;
+  padding-right: 50px;
   text-decoration: none;
-  background: #df0b0b;
+  color: #a9a9a9;
+  border-right: 4px solid #52bfc6;
 }
 
-.left-banner img {
-  
+.menu-nav .current a {
+  position: relative;
+  -webkit-box-shadow: 0 1px 2px rgba(204, 204, 204, .3), 0 0 2px rgba(204, 204, 204, .1) inset;
+     -moz-box-shadow: 0 1px 2px rgba(204, 204, 204, .3), 0 0 2px rgba(204, 204, 204, .1) inset;
+          box-shadow: 0 1px 2px rgba(204, 204, 204, .3), 0 0 2px rgba(204, 204, 204, .1) inset;
 }
+.menu-nav .current a:before,
+.menu-nav .current a:after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  left: 10px;
+  content: '';
+  -moz-border-radius: 100px / 10px;
+       border-radius: 100px / 10px;
+  -webkit-box-shadow: 0 0 20px rgba(204,204,204,.8);
+     -moz-box-shadow: 0 0 20px rgba(204,204,204,.8);
+          box-shadow: 0 0 20px rgba(204,204,204,.8);
+}
+.menu-nav .current a:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+     -moz-transform: skew(8deg) rotate(3deg);
+      -ms-transform: skew(8deg) rotate(3deg);
+       -o-transform: skew(8deg) rotate(3deg);
+          transform: skew(8deg) rotate(3deg);
+
+}
+
+
 
 .current-menu-header {
+  margin-top: 25px;
   margin-bottom: 40px;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 25px;
 }
 
 .catalog-sort {
@@ -137,12 +192,19 @@ CONTENT
 }
 
 .catalog-sort-toggle {
-  border-bottom: 1px dotted;
   margin-left: 15px;
+  border-bottom: 1px dotted;
 }
 
 .catalog-sort-toggle.current {
+  position: relative;
   font-weight: bold;
+}
+
+.catalog-sort-toggle.current:after {
+  position: absolute;
+  right: -10px;
+  content: '\2191';
 }
 
 .catalog-sort-toggle:hover {
@@ -178,8 +240,8 @@ CONTENT
 
 .catalog .item-price {
   position: absolute;
-  bottom: -38px;
   right: 85px;
+  bottom: -38px;
   font-size: 22px;
   font-weight: bold;
 }
@@ -212,15 +274,15 @@ FOOTER
 ********************/
 
 footer {
-  background-color: #ccc;
   padding-top: 15px;
   padding-bottom: 15px;
+  background-color: #ccc;
 }
 
 .politics {
-  text-align: center;
   margin-top: 12px;
   font-size: 16px;
+  text-align: center;
 }
 
 .politics a {
