@@ -25,7 +25,8 @@ ul {
 body {
   font-family: 'Roboto', sans-serif;
   position: relative;
-  background:  url(../img/tree_bark.png) repeat;
+  background:  url(../img/SushiMarket_1.jpg) repeat;
+  background-attachment: fixed;
 }
 
 a {
