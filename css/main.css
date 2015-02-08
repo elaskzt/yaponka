@@ -239,7 +239,7 @@ CONTENT
   text-transform: uppercase;
   color: #fff;
   background: #df0b0b;
-  border-radius: 2px;
+  /*border-radius: 2px;*/
   float: right;
 }
 
