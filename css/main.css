@@ -148,6 +148,10 @@ CONTENT
   border-right: 4px solid #52bfc6;
 }
 
+.menu-nav .current a {
+  font-weight: bold;
+}
+
 .current-menu-header {
   margin-top: 16px;
   margin-bottom: 16px;
