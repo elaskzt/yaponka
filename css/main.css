@@ -24,6 +24,7 @@ ul {
 
 body {
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 a {
@@ -35,16 +36,17 @@ p {
 }
 
 
-
 /********************
 HEADER
 ********************/
 
 header {
   color: #fff;
-  /*padding-top: 10px;*/
-  /*padding-bottom: 10px;*/
+}
+
+header .container {
   background-color: #53bec4;
+  padding-left: 0;
 }
 
 .main-logo-bg {
@@ -52,8 +54,7 @@ header {
   margin-left: auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  max-width: 240px;
-  background: #fff;
+  background: #f2f2f2;
 }
 
 .main-logo {
@@ -96,17 +97,17 @@ CONTENT
 ********************/
 
 .content .container {
-  /*background-color: #391306;*/
+  background-color: #f7f7f7;
   /*color: #fff*/
 }
 
 .left-sidebar {
-  margin-top: 25px;
-  margin-right: auto;
-  margin-left: auto;
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
   width: 100%;
-  max-width: 240px;
-  background: #fff;
+  /*max-width: 240px;*/
+  background: #f2f2f2;
+  margin-left: -10px;
 }
 
 .menu-nav {
@@ -184,6 +185,7 @@ CONTENT
   padding-bottom: 15px;
   padding-left: 15px;
   box-shadow: 0 0 5px  #ccc;
+  background-color: #fff;
 }
 
 .catalog .item-img {
