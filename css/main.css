@@ -35,6 +35,10 @@ p {
   margin-bottom: 0;
 }
 
+.container {
+  position: relative;
+}
+
 
 /********************
 HEADER
@@ -102,12 +106,11 @@ CONTENT
 }
 
 .left-sidebar {
-  /*margin-right: auto;*/
-  /*margin-left: auto;*/
-  width: 100%;
-  /*max-width: 240px;*/
   background: #f2f2f2;
-  margin-left: -10px;
+  position: fixed;
+  width: 240px;
+  top: 0;
+  height: 100%;
 }
 
 .menu-nav {
@@ -244,6 +247,10 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #ccc;
+}
+
+footer .container {
+  
 }
 
 .politics {
