@@ -96,6 +96,10 @@ CONTENT
   background-color: #f7f7f7;
 }
 
+.offset {
+  margin-left: 22.38%;
+}
+
 .left-sidebar {
   background: #f2f2f2;
   position: fixed;
@@ -136,9 +140,10 @@ CONTENT
 }
 
 .current-menu-header {
-  margin-top: 25px;
+  margin-top: 16px;
   margin-bottom: 40px;
-  font-size: 32px;
+  font-size: 53px;
+  line-height: 1;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -176,7 +181,6 @@ CONTENT
 .catalog .item {
   position: relative;
   margin-bottom: 85px;
-  /*box-shadow: 0 0 5px  #ccc;*/
   background-color: #fff;
 }
 
@@ -205,19 +209,14 @@ CONTENT
 }
 
 .catalog .item-price {
-  /*position: absolute;*/
-  /*right: 85px;*/
-  /*bottom: -38px;*/
   font-size: 22px;
   font-weight: bold;
   float: left;
   margin-left: 15px;
+  margin-top: -4px;
 }
 
 .catalog .item-action-btn {
-  /*position: absolute;*/
-  /*right: 0;*/
-  /*bottom: -40px;*/
   width: 78px;
   height: 34px;
   font-size: 19px;
