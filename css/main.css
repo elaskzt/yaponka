@@ -51,27 +51,32 @@ header {
 
 header .container {
   background-color: #53bec4;
-  padding-left: 0;
+  padding-bottom: 15px;
+}
+
+.main-logo-bg {
+  background-color: #000;
 }
 
 .main-logo {
-  box-shadow: 0 0 5px red;
-  margin: 15px auto;
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .discript {
-  padding-top: 18px;
+  padding-top: 10px;
   font-size: 28px;
 }
 
 .main-tel {
-  padding-top: 24px;
+  padding-top: 17px;
   font-size: 24px;
   text-align: center;
 }
 
 .main-nav ul {
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -118,6 +123,10 @@ CONTENT
   font-family: 'PT Sans', sans-serif;
 }
 
+.menu-nav li:first-of-type {
+  margin-top: 28px;
+}
+
 .menu-nav li a {
   padding-right: 25px;
   display: block;
@@ -141,7 +150,7 @@ CONTENT
 
 .current-menu-header {
   margin-top: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   font-size: 53px;
   line-height: 1;
   font-weight: bold;
