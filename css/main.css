@@ -195,6 +195,7 @@ CONTENT
   position: relative;
   margin-bottom: 26px;
   background-color: #fff;
+  min-height: 293px;
 }
 
 .catalog .item-img {
@@ -225,8 +226,9 @@ CONTENT
   font-size: 22px;
   font-weight: bold;
   float: left;
-  margin-left: 15px;
-  margin-top: -4px;
+  position: absolute;
+  left: 15px;
+  bottom: 5px;
 }
 
 .catalog .item-action-btn {
@@ -239,8 +241,9 @@ CONTENT
   text-transform: uppercase;
   color: #fff;
   background: #df0b0b;
-  /*border-radius: 2px;*/
-  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .catalog .item-action-btn:hover {
