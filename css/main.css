@@ -114,7 +114,7 @@ CONTENT
 }
 
 .menu-nav li {
-  height: 48px;
+  height: 26px;
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
 }
@@ -122,9 +122,9 @@ CONTENT
 .menu-nav li a {
   padding-right: 25px;
   display: block;
-  height: 48px;
+  height: 26px;
   font-size: 13px;
-  line-height: 48px;
+  line-height: 26px;
   text-align: right;
   text-transform: uppercase;
   color: #bbb;
@@ -139,40 +139,6 @@ CONTENT
   color: #a9a9a9;
   border-right: 4px solid #52bfc6;
 }
-
-.menu-nav .current a {
-  position: relative;
-  -webkit-box-shadow: 0 1px 2px rgba(204, 204, 204, .3), 0 0 2px rgba(204, 204, 204, .1) inset;
-     -moz-box-shadow: 0 1px 2px rgba(204, 204, 204, .3), 0 0 2px rgba(204, 204, 204, .1) inset;
-          box-shadow: 0 1px 2px rgba(204, 204, 204, .3), 0 0 2px rgba(204, 204, 204, .1) inset;
-}
-.menu-nav .current a:before,
-.menu-nav .current a:after {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: 10px;
-  bottom: 0;
-  left: 10px;
-  content: '';
-  -moz-border-radius: 100px / 10px;
-       border-radius: 100px / 10px;
-  -webkit-box-shadow: 0 0 20px rgba(204,204,204,.8);
-     -moz-box-shadow: 0 0 20px rgba(204,204,204,.8);
-          box-shadow: 0 0 20px rgba(204,204,204,.8);
-}
-.menu-nav .current a:after {
-  right: 10px;
-  left: auto;
-  -webkit-transform: skew(8deg) rotate(3deg);
-     -moz-transform: skew(8deg) rotate(3deg);
-      -ms-transform: skew(8deg) rotate(3deg);
-       -o-transform: skew(8deg) rotate(3deg);
-          transform: skew(8deg) rotate(3deg);
-
-}
-
-
 
 .current-menu-header {
   margin-top: 25px;
