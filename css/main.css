@@ -592,6 +592,10 @@ BASKET-OPENED
   width: 345px;
 }
 
+.checkout-goods-name a {
+  text-decoration: underline;
+}
+
 .checkout-price {
   text-align: center;
 }
