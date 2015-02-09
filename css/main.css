@@ -358,7 +358,7 @@ FOOTER
 
 footer .container {
   color: #fff;
-  background-color: #53bec4;
+  background-color: #3f444f;
 }
 
 .politics {
@@ -458,7 +458,7 @@ BASKET-OPENED
 .basket-open-header {
   padding: 15px 10px 12px 20px;
   font-size: 18px;
-  color: #f00;
+  color: #de5d5d;
 }
 
 .basket-toggle {
@@ -470,7 +470,7 @@ BASKET-OPENED
   width: 22px;
   height: 22px;
   text-decoration: none;
-  background: url(../img/assets/fly-close.jpg) no-repeat top left;
+  background: url(../img/assets/fly-close.png) no-repeat top left;
 }
 
 .basket-open-content {
@@ -552,11 +552,13 @@ BASKET-OPENED
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  background: #df0b0b;
+  background: #de5d5d;
 }
 
-.basket-open-purchase:hover {
+.basket-open-purchase:hover,
+.basket-open-purchase:focus {
   text-decoration: none;
+  color: #fff;
 }
 
 
